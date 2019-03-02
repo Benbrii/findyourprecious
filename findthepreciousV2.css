@@ -1,0 +1,59 @@
+/*style.css --------*/
+
+/*carousel details ------------------------------------------------------*/
+
+.carousel-inner, .carousel-item {
+	max-height: 500px;
+}
+
+/*img of Gandalf / text positionning -------------------------------------------------------------------------------*/
+.card {
+  	text-align: center;  
+}
+
+/*img of Gandalf / opacity ----------------------------------------------------------------------------------------*/
+.card-img-top {
+  	opacity: 0.5;
+}
+
+/*text of Gandalf ----------------------------------------------------------------------------------------*/
+.nametext {
+	position: absolute;
+  	color: white;
+  	top: 250px;
+  	left: 90px;
+  	font-size: 2em;
+}
+
+/*reward of Gandalf + span ----------------------------------------------------------------------------------------*/
+.rewardtext {
+	position: absolute;
+ 	background-color: rgba(255, 255, 255, 0.75);
+ 	border-radius: 8px;
+ 	color: black;
+ 	top: 5px;
+ 	right: 1.5px;
+ 	font-size: 2em;
+ 	margin: 8px;
+ 	padding: .5em;
+ 	opacity: 1;
+}
+
+span {
+  	color: #FE6B0A;
+}
+
+/*hover reaction ! ----------------------------------------------------------------------------------------*/
+.card:hover .rewardtext {
+  	opacity : 0;
+}
+
+.card:hover .card-img-top {
+  	opacity : 1;
+}
+
+.card:hover .nametext{
+  	font-size: 2em;
+  	top: 65%;
+  	left: 30%;
+}
